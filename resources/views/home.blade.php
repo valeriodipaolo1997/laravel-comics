@@ -12,6 +12,7 @@
 <section id="comics">
 
     @include('partials.comics')
+    @include('partials.banner')
 
 </section>
 
