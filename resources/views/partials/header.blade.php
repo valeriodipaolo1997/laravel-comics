@@ -17,7 +17,7 @@
 
         <div class="h-100">
 
-            <nav class="navbar navbar-expand navbar-light h-100">
+            <nav class="navbar navbar-expand navbar-light h-100 p-0">
 
                 <ul class="nav navbar-nav h-100">
 

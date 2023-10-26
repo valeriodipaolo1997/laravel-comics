@@ -2,6 +2,10 @@
 
 @section('content')
 
+<div>
+    @include('partials.jumbo')
+</div>
+
 <section>
 
 </section>
