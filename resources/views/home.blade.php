@@ -2,6 +2,8 @@
 
 @section('content')
 
-<h1>DC comics</h1>
+<section>
+
+</section>
 
 @endsection

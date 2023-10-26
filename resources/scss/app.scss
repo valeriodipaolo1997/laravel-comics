@@ -1,1 +1,58 @@
 @use '~bootstrap/scss/bootstrap';
+
+
+
+$dc_primary: #0282f9;
+$dc_darker: #1c1c1c;
+$dc_dark: #303030;
+$dc_light: #ffffff;
+
+header {
+
+    .bar {
+        background-color: $dc_primary;
+        padding: 0.3rem;
+    }
+
+    height: 120px;
+
+    .header_wrapper {
+        height: 100%;
+
+        li {
+
+            border-bottom: 2px solid transparent;
+
+            a {
+                text-transform: uppercase;
+
+            }
+
+            &.active_li {
+                border-bottom: 2px solid $dc_primary;
+
+                a.active {
+                    color: $dc_primary;
+
+                }
+            }
+
+            span.active {
+                color: $dc_primary;
+
+            }
+        }
+
+        form {
+            .search_wrapper {
+
+                input {
+                    width: 80px;
+                }
+
+                border-bottom: 2px solid $dc_primary;
+
+            }
+        }
+    }
+}
