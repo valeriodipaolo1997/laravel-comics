@@ -10,31 +10,31 @@
                             <h3>dc comics</h3>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">link </a>
+                                    <a href="#">Characters </a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Comics</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Movies</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">TV</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Games</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Videos</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">News</a>
                                 </li>
                             </ul>
 
@@ -42,11 +42,11 @@
                             <h3>shop</h3>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">link </a>
+                                    <a href="#">Shop DC </a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Shop DC Collectibles</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,47 +55,47 @@
                             <h3>dc</h3>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">link </a>
+                                    <a href="#">Terms Of Use</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Privacy policy (New)</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Ad Choices</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Advertising</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Jobs</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Subscriptions</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Talent</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Workshops</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">CPSC Certificates</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Shop Help</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">Contact US</a>
                                 </li>
                             </ul>
                         </div>
@@ -103,24 +103,24 @@
                         <div>
                             <h3>sites</h3>
                             <ul class="list-unstyled">
-                                <li>
-                                    <a href="#">link</a>
+                            <li>
+                                    <a href="#">DC</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">MAD Magazine</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">DC Kids</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">DC Universe</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">link</a>
+                                    <a href="#">DC Power Visa</a>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +148,23 @@
             <div id="socials" class=" d-flex align-items-center gap-4">
                 <h3>follow us</h3>
                 <a>
-                    <img src="" alt="">
+                <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+                </a>
+
+                <a>
+                    <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                </a>
+
+                <a>
+                    <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                </a>
+
+                <a>
+                    <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                </a>
+
+                <a>
+                    <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
                 </a>
             </div>
 

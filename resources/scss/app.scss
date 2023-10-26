@@ -151,6 +151,8 @@ main {
 
     #socials a img:hover {
 
+        cursor: pointer;
+
         filter: brightness(3);
 
         transition: filter, 0.5s;
