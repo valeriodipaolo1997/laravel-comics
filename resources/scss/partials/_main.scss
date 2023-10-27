@@ -1,0 +1,8 @@
+@use './variables' as *;
+
+main {
+    //altezza da togliere dopo aver aggiunto i contenuti
+    min-height: 100vh;
+    background-color: $dc_darker;
+
+}

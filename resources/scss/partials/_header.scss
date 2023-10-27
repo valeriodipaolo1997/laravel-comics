@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+header {
+
+    .bar {
+        background-color: $dc_primary;
+        padding: 0.3rem;
+    }
+
+    .header_wrapper {
+        height: 100%;
+
+
+        li {
+
+            padding: 2rem 0;
+            border-bottom: 3px solid transparent;
+
+            a {
+                text-transform: uppercase;
+
+            }
+
+            &.active_li {
+                border-bottom: 3px solid $dc_primary;
+
+                a.active {
+                    color: $dc_primary;
+
+                }
+            }
+
+            span.active {
+                color: $dc_primary;
+
+            }
+        }
+
+        form {
+            .search_wrapper {
+
+                input {
+                    width: 80px;
+                    outline: none;
+                }
+
+                border-bottom: 2px solid $dc_primary;
+
+            }
+        }
+    }
+}

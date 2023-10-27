@@ -1,0 +1,17 @@
+#jumbo {
+
+    .jumbo_img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .current_btn {
+        position: absolute;
+        bottom: 0;
+        left: -0.5rem;
+        transform: translatey(50%);
+    }
+
+}
