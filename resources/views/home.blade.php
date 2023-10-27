@@ -9,11 +9,11 @@
 
 </div>
 
-<section id="comics">
+<section id="welcome">
 
-    @include('partials.comics')
-    @include('partials.banner')
+    <h2 class="text-white py-5">
+        Questa è la home page,vai alla pagina <a href="{{route('comics')}}">COMICS</a>
+    </h2>
 
 </section>
-
 @endsection
