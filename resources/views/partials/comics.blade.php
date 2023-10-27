@@ -20,6 +20,6 @@
     </div>
 
     <div class="text-center py-4">
-        <a href="##" class="btn btn-primary rounded-0 text-uppercase px-5">load more</a>
+        <a href="##" class="btn btn-primary rounded-0 text-uppercase px-5 fw-bold">load more</a>
     </div>
 </div>

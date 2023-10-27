@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 #jumbo {
 
     .jumbo_img {
@@ -7,11 +9,18 @@
         object-position: top;
     }
 
-    .current_btn {
+    .current {
         position: absolute;
         bottom: 0;
         left: -0.5rem;
         transform: translatey(50%);
+
+        div {
+            font-size: 1.5rem;
+            background-color: $dc_primary;
+            color: white;
+            padding: 0.5rem 2rem;
+        }
     }
 
 }

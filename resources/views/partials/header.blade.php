@@ -21,63 +21,70 @@
 
                 <ul class="nav navbar-nav h-100">
 
-                    <li class="nav-item h-100 d-flex align-items-center {{ Route::currentRouteName() === 'home' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center {{ Route::currentRouteName() === 'home' ? 'active' : '' }}">
 
-                        <a class="nav-link {{ Route::currentRouteName() === 'home' ? 'active' : '' }}" href="{{route('home')}}">characters</a>
+                        <a class="nav-link" href="{{route('home')}}">characters</a>
 
-                    </li>
-
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'comics' ? 'active_li' : '' }}">
-
-                        <a class="nav-link{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{route('comics')}}">comics</a>
 
                     </li>
 
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'movies' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}">
 
-                        <a class="nav-link{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}" href="#">movies</a>
+                        <a class="nav-link" href="{{route('home')}}">comics</a>
 
-                    </li>
-
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'tv' ? 'active_li' : '' }}">
-
-                        <a class="nav-link{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}"  href="#">tv</a>
 
                     </li>
 
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'games' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}">
 
-                        <a class="nav-link{{ Route::currentRouteName() === 'games' ? 'active' : '' }}"  href="#">games</a>
-
-                    </li>
-
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'collectibles' ? 'active_li' : '' }}">
-
-                        <a class="nav-link{{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}"  href="#">collectibles</a>
+                        <a class="nav-link" href="{{route('home')}}">movies</a>
 
                     </li>
 
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'videos' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}">
 
-                        <a class="nav-link{{ Route::currentRouteName() === 'videos' ? 'active' : '' }}"  href="#">videos</a>
+                        <a class="nav-link" href="{{route('home')}}">tv</a>
 
-                    </li>
-
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'fans' ? 'active_li' : '' }}">
-
-                        <a class="nav-link{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}"  href="#">fans</a>
 
                     </li>
 
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'news' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'games' ? 'active' : '' }}">
 
-                        <a class="nav-link{{ Route::currentRouteName() === 'news' ? 'active' : '' }}"  href="#">news</a>
+                        <a class="nav-link" href="{{route('home')}}">games</a>
+
 
                     </li>
 
-                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'shop' ? 'active_li' : '' }}">
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}">
 
-                        <a class="nav-link{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}"  href="#">shop</a><span class="active">&blacktriangledown;</span>
+                        <a class="nav-link" href="{{route('home')}}">collectibles</a>
+
+
+                    </li>
+
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'videos' ? 'active' : '' }}">
+
+                        <a class="nav-link" href="{{route('home')}}">videos</a>
+
+
+                    </li>
+
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}">
+
+                        <a class="nav-link" href="{{route('home')}}">fans</a>
+
+
+                    </li>
+
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">
+
+                        <a class="nav-link" href="{{route('home')}}">news</a>
+
+                    </li>
+
+                    <li class="nav-item h-100 d-flex align-items-center{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">
+
+                    <a class="nav-link" href="#">shop</a><span class="active">&blacktriangledown;</span>
 
                     </li>
                 </ul>
